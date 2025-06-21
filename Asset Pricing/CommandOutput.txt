@@ -1,0 +1,1235 @@
+[Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating variable names for the table. The original
+column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names.] 
+Section 1 completed: Data imported, plotted, and prepared for further analysis.
+Significant alphas - MKTB: 2 portfolios
+Significant alphas - MKTDB: 27 portfolios
+Portfolios with significant heteroskedasticity - MKTB: 46 portfolios
+Portfolios with significant heteroskedasticity - MKTDB: 41 portfolios
+Significant alphas - MKTB (GLS): 2 portfolios
+Significant alphas - MKTDB (GLS): 27 portfolios
+GLS Estimation for MKTB and MKTDB completed.
+Portfolios with significant heteroskedasticity - MKTB: 27 portfolios
+Portfolios with significant heteroskedasticity - MKTDB: 15 portfolios
+Portfolios with significant alphas for MKTB (GLS):
+Portfolio 31: Alpha = -0.0012, p-value = 0.0218
+Portfolio 38: Alpha = 0.0008, p-value = 0.0224
+Portfolios with significant alphas for MKTDB (GLS):
+Portfolio 1: Alpha = 0.0023, p-value = 0.0162
+Portfolio 3: Alpha = 0.0026, p-value = 0.0206
+Portfolio 6: Alpha = 0.0021, p-value = 0.0389
+Portfolio 7: Alpha = 0.0025, p-value = 0.0183
+Portfolio 8: Alpha = 0.0029, p-value = 0.0050
+Portfolio 9: Alpha = 0.0025, p-value = 0.0227
+Portfolio 10: Alpha = 0.0025, p-value = 0.0140
+Portfolio 11: Alpha = 0.0022, p-value = 0.0316
+Portfolio 16: Alpha = 0.0026, p-value = 0.0174
+Portfolio 18: Alpha = 0.0021, p-value = 0.0389
+Portfolio 19: Alpha = 0.0025, p-value = 0.0325
+Portfolio 20: Alpha = 0.0034, p-value = 0.0122
+Portfolio 21: Alpha = 0.0023, p-value = 0.0126
+Portfolio 22: Alpha = 0.0021, p-value = 0.0437
+Portfolio 26: Alpha = 0.0012, p-value = 0.0318
+Portfolio 27: Alpha = 0.0017, p-value = 0.0282
+Portfolio 33: Alpha = 0.0023, p-value = 0.0256
+Portfolio 35: Alpha = 0.0062, p-value = 0.0014
+Portfolio 36: Alpha = 0.0011, p-value = 0.0090
+Portfolio 37: Alpha = 0.0016, p-value = 0.0015
+Portfolio 38: Alpha = 0.0019, p-value = 0.0010
+Portfolio 39: Alpha = 0.0018, p-value = 0.0083
+Portfolio 40: Alpha = 0.0020, p-value = 0.0117
+Portfolio 41: Alpha = 0.0021, p-value = 0.0295
+Portfolio 43: Alpha = 0.0027, p-value = 0.0387
+Portfolio 49: Alpha = 0.0019, p-value = 0.0463
+Portfolio 50: Alpha = 0.0043, p-value = 0.0002
+Mean and Standard Deviation of Alphas and Betas (GLS):
+MKTB - Mean Alpha: 0.0003, Std Alpha: 0.0009, Mean Beta: 1.0016, Std Beta: 0.3236
+MKTDB - Mean Alpha: 0.0022, Std Alpha: 0.0008, Mean Beta: 0.7513, Std Beta: 0.4263
+Average R-squared (GLS) - MKTB: 0.6328
+Average R-squared (GLS) - MKTDB: 0.7975
+Portfolios with Betas outside expected range (MKTB): 20 portfolios
+Portfolios with Betas outside expected range (MKTDB): 9 portfolios
+Cross-Sectional Regression Summary - MKTB:
+
+Linear regression model:
+    y ~ 1 + x1
+
+Estimated Coefficients:
+                    <strong>Estimate</strong>          <strong>SE</strong>         <strong>tStat</strong>      <strong>pValue</strong>  
+                   <strong>___________</strong>    <strong>__________</strong>    <strong>_______</strong>    <strong>_________</strong>
+
+    <strong>(Intercept)</strong>    -0.00053567    0.00038119    -1.4053      0.16638
+    <strong>x1         </strong>      0.0043643     0.0003625     12.039    4.146e-16
+
+
+Number of observations: 50, Error degrees of freedom: 48
+Root Mean Squared Error: 0.000821
+R-squared: 0.751,  Adjusted R-Squared: 0.746
+F-statistic vs. constant model: 145, p-value = 4.15e-16
+Cross-Sectional Regression Summary - MKTDB:
+
+Linear regression model:
+    y ~ 1 + x1
+
+Estimated Coefficients:
+                   <strong>Estimate</strong>         <strong>SE</strong>        <strong>tStat</strong>       <strong>pValue</strong>  
+                   <strong>_________</strong>    <strong>__________</strong>    <strong>______</strong>    <strong>__________</strong>
+
+    <strong>(Intercept)</strong>    0.0011602    0.00017311     6.702    2.1068e-08
+    <strong>x1         </strong>    0.0035608     0.0002009    17.724    1.0597e-22
+
+
+Number of observations: 50, Error degrees of freedom: 48
+Root Mean Squared Error: 0.000599
+R-squared: 0.867,  Adjusted R-Squared: 0.865
+F-statistic vs. constant model: 314, p-value = 1.06e-22
+Fama-Macbeth Regression Summary:
+Alpha Estimate: 0.0007, p-value: 0.0325
+Beta Estimate 1: 0.0030, p-value: 0.0000
+Beta Estimate 2: 0.0036, p-value: 0.0000
+Cross-Sectional Regression Diagnostics:
+R-squared - MKTB: 0.7512
+Adjusted R-squared - MKTB: 0.7460
+F-statistic - MKTB: 144.9468, p-value: 4.1460e-16
+R-squared - MKTDB: 0.8675
+Adjusted R-squared - MKTDB: 0.8647
+F-statistic - MKTDB: 314.1467, p-value: 1.0597e-22
+Momentum factor (MOM) constructed successfully.
+Momentum Factor (MOM) Summary:
+Mean: 0.0012
+Standard Deviation: 0.0123
+Momentum Trend Analysis:
+Mean Pre-Crisis: 0.0012
+Mean Post-Crisis: 0.0013
+Portfolio 1 Regression Diagnostics:
+R-squared: 0.8287
+Adjusted R-squared: 0.8264
+Portfolio 2 Regression Diagnostics:
+R-squared: 0.8965
+Adjusted R-squared: 0.8950
+Portfolio 3 Regression Diagnostics:
+R-squared: 0.8494
+Adjusted R-squared: 0.8473
+Portfolio 4 Regression Diagnostics:
+R-squared: 0.8751
+Adjusted R-squared: 0.8734
+Portfolio 5 Regression Diagnostics:
+R-squared: 0.5598
+Adjusted R-squared: 0.5538
+Portfolio 6 Regression Diagnostics:
+R-squared: 0.8087
+Adjusted R-squared: 0.8061
+Portfolio 7 Regression Diagnostics:
+R-squared: 0.8772
+Adjusted R-squared: 0.8756
+Portfolio 8 Regression Diagnostics:
+R-squared: 0.8134
+Adjusted R-squared: 0.8109
+Portfolio 9 Regression Diagnostics:
+R-squared: 0.7223
+Adjusted R-squared: 0.7185
+Portfolio 10 Regression Diagnostics:
+R-squared: 0.8653
+Adjusted R-squared: 0.8635
+Portfolio 11 Regression Diagnostics:
+R-squared: 0.8201
+Adjusted R-squared: 0.8177
+Portfolio 12 Regression Diagnostics:
+R-squared: 0.8256
+Adjusted R-squared: 0.8232
+Portfolio 13 Regression Diagnostics:
+R-squared: 0.6084
+Adjusted R-squared: 0.6031
+Portfolio 14 Regression Diagnostics:
+R-squared: 0.8184
+Adjusted R-squared: 0.8159
+Portfolio 15 Regression Diagnostics:
+R-squared: 0.6914
+Adjusted R-squared: 0.6871
+Portfolio 16 Regression Diagnostics:
+R-squared: 0.9125
+Adjusted R-squared: 0.9113
+Portfolio 17 Regression Diagnostics:
+R-squared: 0.8746
+Adjusted R-squared: 0.8729
+Portfolio 18 Regression Diagnostics:
+R-squared: 0.8442
+Adjusted R-squared: 0.8421
+Portfolio 19 Regression Diagnostics:
+R-squared: 0.7174
+Adjusted R-squared: 0.7135
+Portfolio 20 Regression Diagnostics:
+R-squared: 0.6961
+Adjusted R-squared: 0.6919
+Portfolio 21 Regression Diagnostics:
+R-squared: 0.8291
+Adjusted R-squared: 0.8268
+Portfolio 22 Regression Diagnostics:
+R-squared: 0.9044
+Adjusted R-squared: 0.9031
+Portfolio 23 Regression Diagnostics:
+R-squared: 0.7264
+Adjusted R-squared: 0.7227
+Portfolio 24 Regression Diagnostics:
+R-squared: 0.8744
+Adjusted R-squared: 0.8727
+Portfolio 25 Regression Diagnostics:
+R-squared: 0.7301
+Adjusted R-squared: 0.7264
+Portfolio 26 Regression Diagnostics:
+R-squared: 0.7305
+Adjusted R-squared: 0.7268
+Portfolio 27 Regression Diagnostics:
+R-squared: 0.8438
+Adjusted R-squared: 0.8416
+Portfolio 28 Regression Diagnostics:
+R-squared: 0.9192
+Adjusted R-squared: 0.9181
+Portfolio 29 Regression Diagnostics:
+R-squared: 0.9704
+Adjusted R-squared: 0.9700
+Portfolio 30 Regression Diagnostics:
+R-squared: 0.9433
+Adjusted R-squared: 0.9425
+Portfolio 31 Regression Diagnostics:
+R-squared: 0.9150
+Adjusted R-squared: 0.9138
+Portfolio 32 Regression Diagnostics:
+R-squared: 0.9054
+Adjusted R-squared: 0.9041
+Portfolio 33 Regression Diagnostics:
+R-squared: 0.9156
+Adjusted R-squared: 0.9144
+Portfolio 34 Regression Diagnostics:
+R-squared: 0.8904
+Adjusted R-squared: 0.8889
+Portfolio 35 Regression Diagnostics:
+R-squared: 0.7958
+Adjusted R-squared: 0.7930
+Portfolio 36 Regression Diagnostics:
+R-squared: 0.7308
+Adjusted R-squared: 0.7271
+Portfolio 37 Regression Diagnostics:
+R-squared: 0.8430
+Adjusted R-squared: 0.8408
+Portfolio 38 Regression Diagnostics:
+R-squared: 0.9127
+Adjusted R-squared: 0.9115
+Portfolio 39 Regression Diagnostics:
+R-squared: 0.9015
+Adjusted R-squared: 0.9002
+Portfolio 40 Regression Diagnostics:
+R-squared: 0.9509
+Adjusted R-squared: 0.9503
+Portfolio 41 Regression Diagnostics:
+R-squared: 0.9638
+Adjusted R-squared: 0.9633
+Portfolio 42 Regression Diagnostics:
+R-squared: 0.9731
+Adjusted R-squared: 0.9727
+Portfolio 43 Regression Diagnostics:
+R-squared: 0.9676
+Adjusted R-squared: 0.9671
+Portfolio 44 Regression Diagnostics:
+R-squared: 0.9526
+Adjusted R-squared: 0.9520
+Portfolio 45 Regression Diagnostics:
+R-squared: 0.8991
+Adjusted R-squared: 0.8977
+Portfolio 46 Regression Diagnostics:
+R-squared: 0.9460
+Adjusted R-squared: 0.9453
+Portfolio 47 Regression Diagnostics:
+R-squared: 0.9373
+Adjusted R-squared: 0.9365
+Portfolio 48 Regression Diagnostics:
+R-squared: 0.9290
+Adjusted R-squared: 0.9280
+Portfolio 49 Regression Diagnostics:
+R-squared: 0.8984
+Adjusted R-squared: 0.8970
+Portfolio 50 Regression Diagnostics:
+R-squared: 0.8803
+Adjusted R-squared: 0.8786
+Average R-squared - Multi-Factor Model: 0.8497
+Significant alphas - Multi-Factor Model: 6 portfolios
+Breusch-Pagan test for Portfolio 1: Test Statistic = 0.0400, p-value = 2.9924e-02
+Breusch-Pagan test for Portfolio 2: Test Statistic = 0.0887, p-value = 1.4035e-04
+Breusch-Pagan test for Portfolio 3: Test Statistic = 0.0076, p-value = 6.4148e-01
+Breusch-Pagan test for Portfolio 4: Test Statistic = 0.0163, p-value = 3.0701e-01
+Breusch-Pagan test for Portfolio 5: Test Statistic = 0.0953, p-value = 6.5441e-05
+Breusch-Pagan test for Portfolio 6: Test Statistic = 0.0207, p-value = 2.0405e-01
+Breusch-Pagan test for Portfolio 7: Test Statistic = 0.0769, p-value = 5.3878e-04
+Breusch-Pagan test for Portfolio 8: Test Statistic = 0.1009, p-value = 3.4328e-05
+Breusch-Pagan test for Portfolio 9: Test Statistic = 0.0522, p-value = 8.2189e-03
+Breusch-Pagan test for Portfolio 10: Test Statistic = 0.0098, p-value = 5.3871e-01
+Breusch-Pagan test for Portfolio 11: Test Statistic = 0.1035, p-value = 2.5084e-05
+Breusch-Pagan test for Portfolio 12: Test Statistic = 0.0570, p-value = 4.8829e-03
+Breusch-Pagan test for Portfolio 13: Test Statistic = 0.0490, p-value = 1.1581e-02
+Breusch-Pagan test for Portfolio 14: Test Statistic = 0.0597, p-value = 3.6445e-03
+Breusch-Pagan test for Portfolio 15: Test Statistic = 0.3360, p-value = 2.3247e-19
+Breusch-Pagan test for Portfolio 16: Test Statistic = 0.0006, p-value = 9.8778e-01
+Breusch-Pagan test for Portfolio 17: Test Statistic = 0.0256, p-value = 1.2805e-01
+Breusch-Pagan test for Portfolio 18: Test Statistic = 0.0062, p-value = 7.1392e-01
+Breusch-Pagan test for Portfolio 19: Test Statistic = 0.1241, p-value = 2.1413e-06
+Breusch-Pagan test for Portfolio 20: Test Statistic = 0.0305, p-value = 7.8707e-02
+Breusch-Pagan test for Portfolio 21: Test Statistic = 0.1402, p-value = 2.9723e-07
+Breusch-Pagan test for Portfolio 22: Test Statistic = 0.0292, p-value = 8.9172e-02
+Breusch-Pagan test for Portfolio 23: Test Statistic = 0.2583, p-value = 3.7658e-14
+Breusch-Pagan test for Portfolio 24: Test Statistic = 0.0884, p-value = 1.4578e-04
+Breusch-Pagan test for Portfolio 25: Test Statistic = 0.1033, p-value = 2.5921e-05
+Breusch-Pagan test for Portfolio 26: Test Statistic = 0.1440, p-value = 1.8545e-07
+Breusch-Pagan test for Portfolio 27: Test Statistic = 0.1328, p-value = 7.4019e-07
+Breusch-Pagan test for Portfolio 28: Test Statistic = 0.0640, p-value = 2.2809e-03
+Breusch-Pagan test for Portfolio 29: Test Statistic = 0.0475, p-value = 1.3554e-02
+Breusch-Pagan test for Portfolio 30: Test Statistic = 0.0634, p-value = 2.4343e-03
+Breusch-Pagan test for Portfolio 31: Test Statistic = 0.1036, p-value = 2.4877e-05
+Breusch-Pagan test for Portfolio 32: Test Statistic = 0.0373, p-value = 3.9319e-02
+Breusch-Pagan test for Portfolio 33: Test Statistic = 0.0035, p-value = 8.5486e-01
+Breusch-Pagan test for Portfolio 34: Test Statistic = 0.0449, p-value = 1.7813e-02
+Breusch-Pagan test for Portfolio 35: Test Statistic = 0.0509, p-value = 9.4642e-03
+Breusch-Pagan test for Portfolio 36: Test Statistic = 0.0726, p-value = 8.7268e-04
+Breusch-Pagan test for Portfolio 37: Test Statistic = 0.0842, p-value = 2.3604e-04
+Breusch-Pagan test for Portfolio 38: Test Statistic = 0.0696, p-value = 1.2264e-03
+Breusch-Pagan test for Portfolio 39: Test Statistic = 0.0477, p-value = 1.3279e-02
+Breusch-Pagan test for Portfolio 40: Test Statistic = 0.2199, p-value = 8.7999e-12
+Breusch-Pagan test for Portfolio 41: Test Statistic = 0.0130, p-value = 4.1198e-01
+Breusch-Pagan test for Portfolio 42: Test Statistic = 0.0309, p-value = 7.5348e-02
+Breusch-Pagan test for Portfolio 43: Test Statistic = 0.0275, p-value = 1.0587e-01
+Breusch-Pagan test for Portfolio 44: Test Statistic = 0.0228, p-value = 1.6757e-01
+Breusch-Pagan test for Portfolio 45: Test Statistic = 0.0242, p-value = 1.4592e-01
+Breusch-Pagan test for Portfolio 46: Test Statistic = 0.0999, p-value = 3.8330e-05
+Breusch-Pagan test for Portfolio 47: Test Statistic = 0.0898, p-value = 1.2437e-04
+Breusch-Pagan test for Portfolio 48: Test Statistic = 0.2492, p-value = 1.4062e-13
+Breusch-Pagan test for Portfolio 49: Test Statistic = 0.0772, p-value = 5.2244e-04
+Breusch-Pagan test for Portfolio 50: Test Statistic = 0.1313, p-value = 8.9812e-07
+Portfolios with significant heteroskedasticity - Multi-Factor Model: 35 portfolios
+Performing Fama-MacBeth Regression for Multi-Factor Model...
+Fama-MacBeth Regression Summary:
+Coefficient 1 Estimate: 0.0008, SE: 0.0001
+Coefficient 2 Estimate: 0.0030, SE: 0.0005
+Coefficient 3 Estimate: 0.0033, SE: 0.0006
+Coefficient 4 Estimate: 0.0017, SE: 0.0003
+Momentum Factor (MOM) Values:
+Date 31-Aug-2003: 0
+Date 30-Sep-2003: 0
+Date 31-Oct-2003: 0
+Date 30-Nov-2003: 0
+Date 31-Dec-2003: 0
+Date 31-Jan-2004: 0
+Date 29-Feb-2004: 0
+Date 31-Mar-2004: 0
+Date 30-Apr-2004: 0
+Date 31-May-2004: 0
+Date 30-Jun-2004: 0
+Date 31-Jul-2004: 0
+Date 31-Aug-2004: -0.0055
+Date 30-Sep-2004: 0.0029
+Date 31-Oct-2004: 0.0064
+Date 30-Nov-2004: 0.0052
+Date 31-Dec-2004: -0.0025
+Date 31-Jan-2005: -0.0016
+Date 28-Feb-2005: 0.0064
+Date 31-Mar-2005: -0.0011
+Date 30-Apr-2005: -0.0069
+Date 31-May-2005: 0.0000
+Date 30-Jun-2005: 0.0054
+Date 31-Jul-2005: 0.0083
+Date 31-Aug-2005: -0.0066
+Date 30-Sep-2005: 0.0001
+Date 31-Oct-2005: 0.0016
+Date 30-Nov-2005: -0.0005
+Date 31-Dec-2005: -0.0040
+Date 31-Jan-2006: 0.0085
+Date 28-Feb-2006: -0.0010
+Date 31-Mar-2006: 0.0012
+Date 30-Apr-2006: 0.0030
+Date 31-May-2006: 0.0001
+Date 30-Jun-2006: -0.0010
+Date 31-Jul-2006: 0.0002
+Date 31-Aug-2006: -0.0013
+Date 30-Sep-2006: 0.0004
+Date 31-Oct-2006: -0.0038
+Date 30-Nov-2006: 0.0060
+Date 31-Dec-2006: 0.0031
+Date 31-Jan-2007: -0.0002
+Date 28-Feb-2007: 0.0031
+Date 31-Mar-2007: -0.0017
+Date 30-Apr-2007: 0.0018
+Date 31-May-2007: 0.0021
+Date 30-Jun-2007: -0.0046
+Date 31-Jul-2007: -0.0139
+Date 31-Aug-2007: 0.0022
+Date 30-Sep-2007: 0.0080
+Date 31-Oct-2007: -0.0049
+Date 30-Nov-2007: -0.0169
+Date 31-Dec-2007: -0.0026
+Date 31-Jan-2008: -0.0193
+Date 29-Feb-2008: -0.0045
+Date 31-Mar-2008: -0.0031
+Date 30-Apr-2008: 0.0140
+Date 31-May-2008: 0.0005
+Date 30-Jun-2008: -0.0071
+Date 31-Jul-2008: -0.0096
+Date 31-Aug-2008: -0.0054
+Date 30-Sep-2008: -0.0253
+Date 31-Oct-2008: -0.0641
+Date 30-Nov-2008: -0.0419
+Date 31-Dec-2008: 0.0208
+Date 31-Jan-2009: 0.0255
+Date 28-Feb-2009: -0.0003
+Date 31-Mar-2009: 0.0250
+Date 30-Apr-2009: 0.0744
+Date 31-May-2009: 0.0439
+Date 30-Jun-2009: -0.0040
+Date 31-Jul-2009: 0.0174
+Date 31-Aug-2009: -0.0078
+Date 30-Sep-2009: 0.0225
+Date 31-Oct-2009: -0.0008
+Date 30-Nov-2009: -0.0004
+Date 31-Dec-2009: 0.0197
+Date 31-Jan-2010: -0.0016
+Date 28-Feb-2010: -0.0060
+Date 31-Mar-2010: 0.0111
+Date 30-Apr-2010: 0.0059
+Date 31-May-2010: -0.0147
+Date 30-Jun-2010: -0.0028
+Date 31-Jul-2010: 0.0070
+Date 31-Aug-2010: -0.0115
+Date 30-Sep-2010: 0.0088
+Date 31-Oct-2010: 0.0136
+Date 30-Nov-2010: -0.0004
+Date 31-Dec-2010: 0.0111
+Date 31-Jan-2011: 0.0030
+Date 28-Feb-2011: 0.0005
+Date 31-Mar-2011: -0.0034
+Date 30-Apr-2011: 0.0038
+Date 31-May-2011: -0.0006
+Date 30-Jun-2011: -0.0029
+Date 31-Jul-2011: -0.0004
+Date 31-Aug-2011: -0.0131
+Date 30-Sep-2011: -0.0131
+Date 31-Oct-2011: 0.0260
+Date 30-Nov-2011: -0.0076
+Date 31-Dec-2011: 0.0103
+Date 31-Jan-2012: 0.0066
+Date 29-Feb-2012: 0.0110
+Date 31-Mar-2012: 0.0016
+Date 30-Apr-2012: 0.0014
+Date 31-May-2012: -0.0084
+Date 30-Jun-2012: 0.0004
+Date 31-Jul-2012: -0.0020
+Date 31-Aug-2012: 0.0035
+Date 30-Sep-2012: 0.0064
+Date 31-Oct-2012: 0.0031
+Date 30-Nov-2012: -0.0001
+Date 31-Dec-2012: 0.0080
+Date 31-Jan-2013: 0.0059
+Date 28-Feb-2013: 0.0016
+Date 31-Mar-2013: 0.0010
+Date 30-Apr-2013: -0.0066
+Date 31-May-2013: 0.0029
+Date 30-Jun-2013: -0.0066
+Date 31-Jul-2013: -0.0024
+Date 31-Aug-2013: 0.0056
+Date 30-Sep-2013: -0.0011
+Date 31-Oct-2013: 0.0007
+Date 30-Nov-2013: 0.0018
+Date 31-Dec-2013: 0.0047
+Date 31-Jan-2014: -0.0023
+Date 28-Feb-2014: 0.0058
+Date 31-Mar-2014: -0.0015
+Date 30-Apr-2014: 0.0038
+Date 31-May-2014: -0.0036
+Date 30-Jun-2014: -0.0007
+Date 31-Jul-2014: -0.0070
+Date 31-Aug-2014: -0.0116
+Date 30-Sep-2014: -0.0134
+Date 31-Oct-2014: -0.0149
+Date 30-Nov-2014: -0.0087
+Date 31-Dec-2014: -0.0085
+Date 31-Jan-2015: 0.0203
+Date 28-Feb-2015: 0.0131
+Date 31-Mar-2015: 0.0003
+Date 30-Apr-2015: 0.0048
+Date 31-May-2015: 0.0107
+Date 30-Jun-2015: -0.0047
+Date 31-Jul-2015: -0.0176
+Date 31-Aug-2015: -0.0034
+Date 30-Sep-2015: -0.0071
+Date 31-Oct-2015: 0.0064
+Date 30-Nov-2015: -0.0161
+Date 31-Dec-2015: -0.0250
+Date 31-Jan-2016: -0.0265
+Date 29-Feb-2016: 0.0593
+Date 31-Mar-2016: 0.0348
+Date 30-Apr-2016: 0.0359
+Date 31-May-2016: 0.0021
+Date 30-Jun-2016: 0.0184
+Date 31-Jul-2016: 0.0061
+Date 31-Aug-2016: 0.0069
+Date 30-Sep-2016: 0.0118
+Date 31-Oct-2016: 0.0073
+Date 30-Nov-2016: 0.0091
+Date 31-Dec-2016: 0.0030
+Date 31-Jan-2017: 0.0100
+Date 28-Feb-2017: 0.0020
+Date 31-Mar-2017: 0.0003
+Date 30-Apr-2017: 0.0048
+Date 31-May-2017: 0.0007
+Date 30-Jun-2017: 0.0040
+Date 31-Jul-2017: 0.0069
+Date 31-Aug-2017: -0.0008
+Date 30-Sep-2017: 0.0052
+Date 31-Oct-2017: 0.0023
+Date 30-Nov-2017: 0.0011
+Date 31-Dec-2017: 0.0032
+Date 31-Jan-2018: 0.0047
+Date 28-Feb-2018: -0.0026
+Date 31-Mar-2018: -0.0015
+Date 30-Apr-2018: 0.0021
+Date 31-May-2018: -0.0014
+Date 30-Jun-2018: -0.0045
+Date 31-Jul-2018: 0.0049
+Date 31-Aug-2018: -0.0003
+Date 30-Sep-2018: 0.0027
+Date 31-Oct-2018: -0.0046
+Date 30-Nov-2018: -0.0012
+Date 31-Dec-2018: -0.0046
+Date 31-Jan-2019: 0.0056
+Date 28-Feb-2019: 0.0046
+Date 31-Mar-2019: -0.0018
+Date 30-Apr-2019: 0.0039
+Date 31-May-2019: -0.0102
+Date 30-Jun-2019: 0.0026
+Date 31-Jul-2019: 0.0026
+Date 31-Aug-2019: -0.0068
+Date 30-Sep-2019: 0.0025
+Date 31-Oct-2019: 0.0027
+Date 30-Nov-2019: 0.0023
+Date 31-Dec-2019: 0.0036
+Date 31-Jan-2020: -0.0016
+Date 29-Feb-2020: -0.0080
+Date 31-Mar-2020: -0.0280
+Date 30-Apr-2020: 0.0124
+Date 31-May-2020: 0.0037
+Date 30-Jun-2020: 0.0041
+Date 31-Jul-2020: 0.0111
+Date 31-Aug-2020: 0.0047
+Date 30-Sep-2020: -0.0029
+Date 31-Oct-2020: 0.0035
+Date 30-Nov-2020: 0.0001
+Date 31-Dec-2020: 0.0017
+Date 31-Jan-2021: 0.0030
+Date 28-Feb-2021: 0.0038
+Date 31-Mar-2021: 0.0001
+Date 30-Apr-2021: 0.0011
+Date 31-May-2021: -0.0007
+Date 30-Jun-2021: 0.0013
+Date 31-Jul-2021: 0.0007
+Date 31-Aug-2021: 0.0015
+Date 30-Sep-2021: -0.0004
+Date 31-Oct-2021: -0.0005
+Date 30-Nov-2021: -0.0015
+Date 31-Dec-2021: 0.0028
+Date 31-Jan-2022: -0.0019
+Date 28-Feb-2022: 0.0009
+Date 31-Mar-2022: 0.0011
+Date 30-Apr-2022: -0.0014
+Date 31-May-2022: 0.0014
+Date 30-Jun-2022: -0.0041
+Date 31-Jul-2022: -0.0024
+Date 31-Aug-2022: -0.0002
+Date 30-Sep-2022: 0.0021
+Date 31-Oct-2022: 0.0052
+Date 30-Nov-2022: -0.0013
+Date 31-Dec-2022: 0.0018
+Date 31-Jan-2023: 0.0006
+Date 28-Feb-2023: 0.0017
+Covariance Matrix of Residuals:
+  Columns 1 through 15
+
+    0.0001    0.0001    0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000
+    0.0001    0.0001    0.0000   -0.0000   -0.0001    0.0000    0.0001    0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0001   -0.0000
+    0.0000    0.0000    0.0001   -0.0000   -0.0001    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000
+   -0.0000   -0.0000   -0.0000    0.0001    0.0001    0.0000    0.0000    0.0000    0.0001    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0001   -0.0001    0.0001    0.0007   -0.0000   -0.0001    0.0001    0.0002    0.0001   -0.0000   -0.0000    0.0003   -0.0000    0.0001
+    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000
+    0.0001    0.0001    0.0000    0.0000   -0.0001    0.0000    0.0001    0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0001    0.0001    0.0000    0.0000    0.0000    0.0001    0.0000    0.0000
+    0.0000   -0.0000   -0.0000    0.0001    0.0002    0.0000    0.0000    0.0001    0.0002    0.0000    0.0000   -0.0000    0.0001   -0.0000    0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000   -0.0000    0.0000    0.0000    0.0001    0.0000   -0.0000    0.0001    0.0000    0.0001
+    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0001   -0.0000    0.0000   -0.0000
+   -0.0000   -0.0001   -0.0000    0.0000    0.0003    0.0000   -0.0001    0.0001    0.0001    0.0001    0.0000   -0.0000    0.0007    0.0000    0.0001
+    0.0000    0.0001    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0001   -0.0000
+    0.0000   -0.0000    0.0000    0.0000    0.0001   -0.0000    0.0000    0.0000    0.0000    0.0001    0.0000   -0.0000    0.0001   -0.0000    0.0008
+    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000   -0.0000    0.0000    0.0001    0.0000   -0.0000   -0.0000    0.0001   -0.0000   -0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000    0.0001    0.0002    0.0000   -0.0000    0.0001    0.0001    0.0001    0.0000    0.0000    0.0002    0.0000    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0001   -0.0001    0.0001    0.0003    0.0000   -0.0001    0.0001    0.0002    0.0001   -0.0000    0.0000    0.0003   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000    0.0000   -0.0001   -0.0000   -0.0001
+   -0.0001   -0.0001   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0001   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000
+   -0.0000    0.0000    0.0000   -0.0000   -0.0001   -0.0000    0.0000   -0.0000   -0.0001   -0.0000   -0.0000    0.0000   -0.0001   -0.0000   -0.0001
+    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001   -0.0000   -0.0000    0.0000    0.0001    0.0000    0.0000   -0.0000    0.0001   -0.0000    0.0000
+   -0.0001   -0.0001   -0.0001    0.0001    0.0003   -0.0000   -0.0001    0.0000    0.0001    0.0001   -0.0000   -0.0000    0.0003   -0.0001    0.0000
+   -0.0002   -0.0003   -0.0002    0.0000    0.0004   -0.0001   -0.0002    0.0000    0.0001    0.0001   -0.0001   -0.0001    0.0006   -0.0001    0.0002
+   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000    0.0001   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001   -0.0000   -0.0000    0.0000    0.0001    0.0000   -0.0000   -0.0000    0.0001   -0.0000    0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0001   -0.0000    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0000
+    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0001    0.0001   -0.0000   -0.0002    0.0000    0.0001    0.0000   -0.0001   -0.0000    0.0000    0.0000   -0.0002    0.0001    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001    0.0000    0.0000   -0.0000   -0.0001   -0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0001    0.0000   -0.0001
+    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000
+    0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000   -0.0000    0.0000    0.0001    0.0000    0.0000   -0.0000    0.0001   -0.0000    0.0001
+   -0.0001   -0.0002   -0.0001    0.0001    0.0003   -0.0001   -0.0001    0.0000    0.0001    0.0001   -0.0001   -0.0001    0.0004   -0.0001    0.0001
+
+  Columns 16 through 30
+
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0001    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001   -0.0000   -0.0001    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0001   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0001   -0.0000    0.0000    0.0000    0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0001    0.0000    0.0002   -0.0000   -0.0000    0.0000    0.0003   -0.0001    0.0000   -0.0001   -0.0001   -0.0001   -0.0001   -0.0001
+   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0001    0.0000    0.0001    0.0000    0.0000    0.0000    0.0002   -0.0001    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0001    0.0000    0.0002   -0.0000    0.0000    0.0000    0.0003   -0.0001   -0.0000   -0.0001   -0.0001   -0.0001   -0.0001   -0.0001
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0001    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000
+    0.0000    0.0001    0.0000    0.0001   -0.0000   -0.0000    0.0000    0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0000    0.0001    0.0001    0.0000    0.0000    0.0000    0.0001   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0001    0.0001    0.0002   -0.0000    0.0000    0.0000    0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0002    0.0000    0.0000   -0.0001   -0.0000   -0.0001    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001    0.0000   -0.0000   -0.0000   -0.0001    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0001    0.0001    0.0002   -0.0001   -0.0000    0.0000    0.0006   -0.0000    0.0000   -0.0000   -0.0001   -0.0001   -0.0001   -0.0001
+   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000   -0.0000   -0.0000   -0.0001   -0.0001   -0.0000    0.0000    0.0000    0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0001    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000
+    0.0000    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0001   -0.0000    0.0001   -0.0001   -0.0000   -0.0000    0.0002   -0.0000    0.0001   -0.0001   -0.0001   -0.0001   -0.0001   -0.0001
+   -0.0000    0.0001   -0.0001    0.0001   -0.0001   -0.0001   -0.0001    0.0004    0.0000    0.0002   -0.0001   -0.0002   -0.0002   -0.0002   -0.0002
+   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000    0.0000   -0.0000    0.0001    0.0000    0.0000   -0.0002   -0.0000   -0.0000    0.0000    0.0000    0.0001    0.0001    0.0001
+   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0001   -0.0000    0.0001   -0.0001   -0.0001   -0.0000    0.0003   -0.0000    0.0001   -0.0001   -0.0001   -0.0001   -0.0001   -0.0001
+
+  Columns 31 through 45
+
+   -0.0000    0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000   -0.0000   -0.0001   -0.0003   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+    0.0000    0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+   -0.0000    0.0000    0.0000    0.0001    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0000
+   -0.0001    0.0000    0.0001    0.0003    0.0004    0.0000    0.0000    0.0000    0.0001    0.0001    0.0001   -0.0000   -0.0001   -0.0000   -0.0002
+   -0.0000   -0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0001    0.0000    0.0001    0.0001    0.0001   -0.0000   -0.0000    0.0000    0.0000    0.0001    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0000    0.0000    0.0000    0.0001    0.0001   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0000
+   -0.0000    0.0000    0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0001   -0.0000    0.0001    0.0003    0.0006    0.0000    0.0000    0.0000    0.0000    0.0001    0.0001   -0.0000   -0.0000    0.0000   -0.0002
+   -0.0000    0.0000   -0.0000   -0.0001   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+   -0.0001    0.0000    0.0000    0.0000    0.0002   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0000    0.0001    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0000    0.0001    0.0001   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0000
+   -0.0000    0.0000   -0.0000   -0.0001   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+   -0.0000    0.0000    0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0001    0.0000    0.0000    0.0002    0.0004    0.0000    0.0000    0.0000    0.0000    0.0001    0.0001   -0.0000   -0.0001   -0.0000   -0.0002
+    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000    0.0001    0.0002    0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000   -0.0001   -0.0001   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000
+    0.0000   -0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000   -0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+    0.0000   -0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+    0.0000    0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+    0.0001    0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0001    0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0001    0.0001    0.0001    0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+   -0.0001   -0.0000    0.0001    0.0003    0.0005    0.0000    0.0000    0.0000    0.0000    0.0001    0.0001   -0.0000   -0.0000   -0.0000   -0.0002
+   -0.0002   -0.0001    0.0001    0.0005    0.0015    0.0001    0.0001    0.0001    0.0001    0.0002    0.0001   -0.0001   -0.0001   -0.0001   -0.0004
+   -0.0000   -0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000    0.0000    0.0000    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000    0.0000    0.0001    0.0002    0.0000    0.0000    0.0000    0.0000    0.0001    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000    0.0000    0.0001    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+    0.0000    0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000   -0.0000   -0.0000   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0001    0.0001
+    0.0000    0.0000   -0.0000   -0.0002   -0.0004   -0.0001   -0.0001   -0.0001   -0.0001   -0.0001   -0.0000    0.0000    0.0000    0.0001    0.0002
+    0.0000    0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0001
+    0.0000   -0.0000   -0.0000   -0.0001   -0.0002   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000   -0.0000   -0.0001   -0.0001   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0001    0.0001    0.0001    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0001
+   -0.0001   -0.0000    0.0001    0.0003    0.0009    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001   -0.0000   -0.0001   -0.0001   -0.0002
+
+  Columns 46 through 50
+
+    0.0000    0.0000    0.0000    0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0002
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000    0.0000    0.0000    0.0001
+   -0.0001   -0.0001   -0.0000    0.0001    0.0003
+    0.0000   -0.0000    0.0000    0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+   -0.0000   -0.0000    0.0000    0.0000    0.0000
+   -0.0001   -0.0000    0.0000    0.0001    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+    0.0000   -0.0000    0.0000    0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+   -0.0001   -0.0001   -0.0000    0.0001    0.0004
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+   -0.0001   -0.0001    0.0000    0.0001    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+    0.0000   -0.0000    0.0000    0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+    0.0000   -0.0000    0.0000    0.0000   -0.0001
+    0.0000   -0.0000    0.0000    0.0000   -0.0001
+    0.0000   -0.0000    0.0000    0.0000   -0.0000
+   -0.0001   -0.0000   -0.0000    0.0001    0.0003
+    0.0000    0.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    0.0000   -0.0000   -0.0000    0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000   -0.0000   -0.0000   -0.0001
+    0.0000   -0.0000    0.0000    0.0000   -0.0000
+   -0.0000   -0.0000   -0.0000    0.0001    0.0001
+   -0.0001   -0.0001   -0.0001    0.0001    0.0003
+   -0.0002   -0.0002   -0.0001    0.0001    0.0009
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+   -0.0000   -0.0000   -0.0000    0.0000    0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0001    0.0000    0.0000   -0.0001   -0.0002
+    0.0001    0.0000    0.0000   -0.0001   -0.0002
+    0.0000    0.0000    0.0000   -0.0000   -0.0001
+    0.0000    0.0000    0.0000    0.0000   -0.0001
+   -0.0001   -0.0000    0.0000    0.0001    0.0001
+   -0.0002   -0.0001   -0.0001    0.0001    0.0006
+
+GRS Test Statistic: 1.9127
+GRS Test p-value: 1.0389e-03
+The GRS test is significant at the 5% level, indicating that the alphas are jointly different from zero.
+Performing GLS estimation for robustness comparison...
+Portfolio 1 GLS Regression Diagnostics:
+R-squared: 0.4470
+Adjusted R-squared: 0.4394
+Portfolio 2 GLS Regression Diagnostics:
+R-squared: 0.6042
+Adjusted R-squared: 0.5988
+Portfolio 3 GLS Regression Diagnostics:
+R-squared: 0.1404
+Adjusted R-squared: 0.1286
+Portfolio 4 GLS Regression Diagnostics:
+R-squared: 0.2643
+Adjusted R-squared: 0.2542
+Portfolio 5 GLS Regression Diagnostics:
+R-squared: 0.1446
+Adjusted R-squared: 0.1329
+Portfolio 6 GLS Regression Diagnostics:
+R-squared: 0.4957
+Adjusted R-squared: 0.4888
+Portfolio 7 GLS Regression Diagnostics:
+R-squared: 0.3317
+Adjusted R-squared: 0.3225
+Portfolio 8 GLS Regression Diagnostics:
+R-squared: 0.3387
+Adjusted R-squared: 0.3296
+Portfolio 9 GLS Regression Diagnostics:
+R-squared: 0.3610
+Adjusted R-squared: 0.3523
+Portfolio 10 GLS Regression Diagnostics:
+R-squared: 0.4560
+Adjusted R-squared: 0.4486
+Portfolio 11 GLS Regression Diagnostics:
+R-squared: 0.2071
+Adjusted R-squared: 0.1962
+Portfolio 12 GLS Regression Diagnostics:
+R-squared: 0.3684
+Adjusted R-squared: 0.3598
+Portfolio 13 GLS Regression Diagnostics:
+R-squared: 0.3410
+Adjusted R-squared: 0.3320
+Portfolio 14 GLS Regression Diagnostics:
+R-squared: 0.5587
+Adjusted R-squared: 0.5527
+Portfolio 15 GLS Regression Diagnostics:
+R-squared: 0.4846
+Adjusted R-squared: 0.4775
+Portfolio 16 GLS Regression Diagnostics:
+R-squared: 0.2078
+Adjusted R-squared: 0.1969
+Portfolio 17 GLS Regression Diagnostics:
+R-squared: 0.3854
+Adjusted R-squared: 0.3769
+Portfolio 18 GLS Regression Diagnostics:
+R-squared: 0.4750
+Adjusted R-squared: 0.4678
+Portfolio 19 GLS Regression Diagnostics:
+R-squared: 0.2363
+Adjusted R-squared: 0.2258
+Portfolio 20 GLS Regression Diagnostics:
+R-squared: 0.2326
+Adjusted R-squared: 0.2221
+Portfolio 21 GLS Regression Diagnostics:
+R-squared: 0.3519
+Adjusted R-squared: 0.3430
+Portfolio 22 GLS Regression Diagnostics:
+R-squared: 0.6574
+Adjusted R-squared: 0.6527
+Portfolio 23 GLS Regression Diagnostics:
+R-squared: 0.3051
+Adjusted R-squared: 0.2956
+Portfolio 24 GLS Regression Diagnostics:
+R-squared: 0.1686
+Adjusted R-squared: 0.1572
+Portfolio 25 GLS Regression Diagnostics:
+R-squared: 0.1658
+Adjusted R-squared: 0.1543
+Portfolio 26 GLS Regression Diagnostics:
+R-squared: 0.0850
+Adjusted R-squared: 0.0725
+Portfolio 27 GLS Regression Diagnostics:
+R-squared: 0.3434
+Adjusted R-squared: 0.3344
+Portfolio 28 GLS Regression Diagnostics:
+R-squared: 0.5924
+Adjusted R-squared: 0.5868
+Portfolio 29 GLS Regression Diagnostics:
+R-squared: 0.7798
+Adjusted R-squared: 0.7768
+Portfolio 30 GLS Regression Diagnostics:
+R-squared: 0.7196
+Adjusted R-squared: 0.7158
+Portfolio 31 GLS Regression Diagnostics:
+R-squared: 0.5578
+Adjusted R-squared: 0.5518
+Portfolio 32 GLS Regression Diagnostics:
+R-squared: 0.4027
+Adjusted R-squared: 0.3945
+Portfolio 33 GLS Regression Diagnostics:
+R-squared: 0.4619
+Adjusted R-squared: 0.4545
+Portfolio 34 GLS Regression Diagnostics:
+R-squared: 0.5486
+Adjusted R-squared: 0.5424
+Portfolio 35 GLS Regression Diagnostics:
+R-squared: 0.7339
+Adjusted R-squared: 0.7303
+Portfolio 36 GLS Regression Diagnostics:
+R-squared: 0.2031
+Adjusted R-squared: 0.1922
+Portfolio 37 GLS Regression Diagnostics:
+R-squared: 0.0798
+Adjusted R-squared: 0.0672
+Portfolio 38 GLS Regression Diagnostics:
+R-squared: 0.1361
+Adjusted R-squared: 0.1243
+Portfolio 39 GLS Regression Diagnostics:
+R-squared: 0.2203
+Adjusted R-squared: 0.2096
+Portfolio 40 GLS Regression Diagnostics:
+R-squared: 0.3599
+Adjusted R-squared: 0.3512
+Portfolio 41 GLS Regression Diagnostics:
+R-squared: 0.4600
+Adjusted R-squared: 0.4526
+Portfolio 42 GLS Regression Diagnostics:
+R-squared: 0.2798
+Adjusted R-squared: 0.2700
+Portfolio 43 GLS Regression Diagnostics:
+R-squared: 0.3688
+Adjusted R-squared: 0.3602
+Portfolio 44 GLS Regression Diagnostics:
+R-squared: 0.2819
+Adjusted R-squared: 0.2721
+Portfolio 45 GLS Regression Diagnostics:
+R-squared: 0.2830
+Adjusted R-squared: 0.2732
+Portfolio 46 GLS Regression Diagnostics:
+R-squared: 0.8614
+Adjusted R-squared: 0.8595
+Portfolio 47 GLS Regression Diagnostics:
+R-squared: 0.7868
+Adjusted R-squared: 0.7839
+Portfolio 48 GLS Regression Diagnostics:
+R-squared: 0.6529
+Adjusted R-squared: 0.6481
+Portfolio 49 GLS Regression Diagnostics:
+R-squared: 0.4574
+Adjusted R-squared: 0.4500
+Portfolio 50 GLS Regression Diagnostics:
+R-squared: 0.6009
+Adjusted R-squared: 0.5954
+Performing White test for heteroskedasticity in GLS residuals...
+White test for Portfolio 1: Test Statistic = 0.0241, p-value = 1.4689e-01
+White test for Portfolio 2: Test Statistic = 0.0966, p-value = 5.6620e-05
+White test for Portfolio 3: Test Statistic = 0.1027, p-value = 2.7531e-05
+White test for Portfolio 4: Test Statistic = 0.0051, p-value = 7.7204e-01
+White test for Portfolio 5: Test Statistic = 0.1007, p-value = 3.4995e-05
+White test for Portfolio 6: Test Statistic = 0.0105, p-value = 5.0761e-01
+White test for Portfolio 7: Test Statistic = 0.2073, p-value = 4.9410e-11
+White test for Portfolio 8: Test Statistic = 0.0741, p-value = 7.4155e-04
+White test for Portfolio 9: Test Statistic = 0.0569, p-value = 4.9270e-03
+White test for Portfolio 10: Test Statistic = 0.0132, p-value = 4.0579e-01
+White test for Portfolio 11: Test Statistic = 0.0539, p-value = 6.8461e-03
+White test for Portfolio 12: Test Statistic = 0.2143, p-value = 1.8843e-11
+White test for Portfolio 13: Test Statistic = 0.3134, p-value = 8.7481e-18
+White test for Portfolio 14: Test Statistic = 0.0086, p-value = 5.9209e-01
+White test for Portfolio 15: Test Statistic = 0.3341, p-value = 3.2080e-19
+White test for Portfolio 16: Test Statistic = 0.1721, p-value = 5.2210e-09
+White test for Portfolio 17: Test Statistic = 0.0146, p-value = 3.5913e-01
+White test for Portfolio 18: Test Statistic = 0.0021, p-value = 9.2815e-01
+White test for Portfolio 19: Test Statistic = 0.0352, p-value = 4.9047e-02
+White test for Portfolio 20: Test Statistic = 0.0286, p-value = 9.5394e-02
+White test for Portfolio 21: Test Statistic = 0.1127, p-value = 8.4427e-06
+White test for Portfolio 22: Test Statistic = 0.0017, p-value = 9.4557e-01
+White test for Portfolio 23: Test Statistic = 0.1972, p-value = 1.9146e-10
+White test for Portfolio 24: Test Statistic = 0.0714, p-value = 1.0077e-03
+White test for Portfolio 25: Test Statistic = 0.1840, p-value = 1.1077e-09
+White test for Portfolio 26: Test Statistic = 0.1213, p-value = 3.0156e-06
+White test for Portfolio 27: Test Statistic = 0.1180, p-value = 4.5157e-06
+White test for Portfolio 28: Test Statistic = 0.1062, p-value = 1.8409e-05
+White test for Portfolio 29: Test Statistic = 0.1404, p-value = 2.9310e-07
+White test for Portfolio 30: Test Statistic = 0.1490, p-value = 9.9898e-08
+White test for Portfolio 31: Test Statistic = 0.1826, p-value = 1.3379e-09
+White test for Portfolio 32: Test Statistic = 0.0307, p-value = 7.7115e-02
+White test for Portfolio 33: Test Statistic = 0.1808, p-value = 1.6765e-09
+White test for Portfolio 34: Test Statistic = 0.1625, p-value = 1.7981e-08
+White test for Portfolio 35: Test Statistic = 0.0454, p-value = 1.6993e-02
+White test for Portfolio 36: Test Statistic = 0.0474, p-value = 1.3700e-02
+White test for Portfolio 37: Test Statistic = 0.0279, p-value = 1.0194e-01
+White test for Portfolio 38: Test Statistic = 0.0439, p-value = 1.9788e-02
+White test for Portfolio 39: Test Statistic = 0.1829, p-value = 1.2806e-09
+White test for Portfolio 40: Test Statistic = 0.2194, p-value = 9.3831e-12
+White test for Portfolio 41: Test Statistic = 0.0144, p-value = 3.6513e-01
+White test for Portfolio 42: Test Statistic = 0.0937, p-value = 7.9488e-05
+White test for Portfolio 43: Test Statistic = 0.0389, p-value = 3.3287e-02
+White test for Portfolio 44: Test Statistic = 0.0468, p-value = 1.4592e-02
+White test for Portfolio 45: Test Statistic = 0.1976, p-value = 1.8306e-10
+White test for Portfolio 46: Test Statistic = 0.1293, p-value = 1.1445e-06
+White test for Portfolio 47: Test Statistic = 0.1004, p-value = 3.6247e-05
+White test for Portfolio 48: Test Statistic = 0.1942, p-value = 2.8703e-10
+White test for Portfolio 49: Test Statistic = 0.3460, p-value = 4.4663e-20
+White test for Portfolio 50: Test Statistic = 0.0652, p-value = 1.9871e-03
+Portfolios with significant heteroskedasticity after GLS: 38 portfolios
+Comparing GLS results with OLS results...
+Portfolio 1 Comparison (OLS vs GLS):
+OLS Alpha: 0.0004, GLS Alpha: -0.0007
+OLS Beta MKTB: 0.9509, GLS Beta MKTB: 1.2352
+OLS Beta MKTDB: -0.3920, GLS Beta MKTDB: -0.1386
+OLS Beta MOM: 0.0172, GLS Beta MOM: -0.5290
+Portfolio 2 Comparison (OLS vs GLS):
+OLS Alpha: -0.0004, GLS Alpha: -0.0015
+OLS Beta MKTB: 1.1478, GLS Beta MKTB: 1.2076
+OLS Beta MKTDB: -0.4004, GLS Beta MKTDB: -0.1585
+OLS Beta MOM: -0.2215, GLS Beta MOM: -0.4497
+Portfolio 3 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: -0.0016
+OLS Beta MKTB: 1.0993, GLS Beta MKTB: 1.2943
+OLS Beta MKTDB: -0.2734, GLS Beta MKTDB: 0.0893
+OLS Beta MOM: -0.0606, GLS Beta MOM: -0.4673
+Portfolio 4 Comparison (OLS vs GLS):
+OLS Alpha: -0.0004, GLS Alpha: 0.0004
+OLS Beta MKTB: 0.9895, GLS Beta MKTB: 1.3029
+OLS Beta MKTDB: 0.0497, GLS Beta MKTDB: 0.2484
+OLS Beta MOM: 0.3136, GLS Beta MOM: -0.8974
+Portfolio 5 Comparison (OLS vs GLS):
+OLS Alpha: 0.0006, GLS Alpha: 0.0010
+OLS Beta MKTB: 0.3319, GLS Beta MKTB: 1.1629
+OLS Beta MKTDB: 0.5193, GLS Beta MKTDB: 0.2067
+OLS Beta MOM: 0.9063, GLS Beta MOM: 0.1040
+Portfolio 6 Comparison (OLS vs GLS):
+OLS Alpha: 0.0002, GLS Alpha: 0.0005
+OLS Beta MKTB: 0.8818, GLS Beta MKTB: 0.8327
+OLS Beta MKTDB: -0.2692, GLS Beta MKTDB: -0.0777
+OLS Beta MOM: 0.0688, GLS Beta MOM: -0.7222
+Portfolio 7 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: 0.0001
+OLS Beta MKTB: 1.1048, GLS Beta MKTB: 1.0596
+OLS Beta MKTDB: -0.4241, GLS Beta MKTDB: -0.0091
+OLS Beta MOM: -0.0048, GLS Beta MOM: -0.4527
+Portfolio 8 Comparison (OLS vs GLS):
+OLS Alpha: 0.0007, GLS Alpha: -0.0008
+OLS Beta MKTB: 0.9419, GLS Beta MKTB: 0.9614
+OLS Beta MKTDB: -0.1908, GLS Beta MKTDB: -0.1060
+OLS Beta MOM: 0.3142, GLS Beta MOM: 0.4110
+Portfolio 9 Comparison (OLS vs GLS):
+OLS Alpha: 0.0008, GLS Alpha: 0.0008
+OLS Beta MKTB: 0.7304, GLS Beta MKTB: 0.9057
+OLS Beta MKTDB: 0.1253, GLS Beta MKTDB: 0.2615
+OLS Beta MOM: 0.5297, GLS Beta MOM: -0.1340
+Portfolio 10 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: 0.0016
+OLS Beta MKTB: 0.8844, GLS Beta MKTB: 0.6788
+OLS Beta MKTDB: -0.0780, GLS Beta MKTDB: 0.1255
+OLS Beta MOM: 0.5148, GLS Beta MOM: 0.4078
+Portfolio 11 Comparison (OLS vs GLS):
+OLS Alpha: 0.0002, GLS Alpha: -0.0013
+OLS Beta MKTB: 0.9650, GLS Beta MKTB: 1.0452
+OLS Beta MKTDB: -0.1875, GLS Beta MKTDB: -0.0609
+OLS Beta MOM: -0.0005, GLS Beta MOM: -0.1846
+Portfolio 12 Comparison (OLS vs GLS):
+OLS Alpha: -0.0007, GLS Alpha: -0.0007
+OLS Beta MKTB: 1.0830, GLS Beta MKTB: 1.1544
+OLS Beta MKTDB: -0.2249, GLS Beta MKTDB: 0.3356
+OLS Beta MOM: -0.1199, GLS Beta MOM: -1.5700
+Portfolio 13 Comparison (OLS vs GLS):
+OLS Alpha: 0.0009, GLS Alpha: -0.0082
+OLS Beta MKTB: 0.9735, GLS Beta MKTB: 1.1782
+OLS Beta MKTDB: 0.3595, GLS Beta MKTDB: -0.6037
+OLS Beta MOM: 0.7389, GLS Beta MOM: 2.5786
+Portfolio 14 Comparison (OLS vs GLS):
+OLS Alpha: -0.0001, GLS Alpha: 0.0001
+OLS Beta MKTB: 1.0661, GLS Beta MKTB: 1.2725
+OLS Beta MKTDB: -0.3089, GLS Beta MKTDB: -0.0432
+OLS Beta MOM: -0.1305, GLS Beta MOM: -0.6503
+Portfolio 15 Comparison (OLS vs GLS):
+OLS Alpha: -0.0002, GLS Alpha: -0.0004
+OLS Beta MKTB: 1.1126, GLS Beta MKTB: 0.7922
+OLS Beta MKTDB: -0.9469, GLS Beta MKTDB: -0.0438
+OLS Beta MOM: 2.3719, GLS Beta MOM: 1.5763
+Portfolio 16 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: 0.0009
+OLS Beta MKTB: 1.1128, GLS Beta MKTB: 1.4041
+OLS Beta MKTDB: -0.1425, GLS Beta MKTDB: 0.2207
+OLS Beta MOM: 0.1448, GLS Beta MOM: -0.5577
+Portfolio 17 Comparison (OLS vs GLS):
+OLS Alpha: -0.0005, GLS Alpha: 0.0025
+OLS Beta MKTB: 0.9479, GLS Beta MKTB: 1.0240
+OLS Beta MKTDB: -0.0065, GLS Beta MKTDB: 0.2185
+OLS Beta MOM: 0.3515, GLS Beta MOM: -0.6785
+Portfolio 18 Comparison (OLS vs GLS):
+OLS Alpha: 0.0000, GLS Alpha: 0.0012
+OLS Beta MKTB: 0.9710, GLS Beta MKTB: 0.8720
+OLS Beta MKTDB: -0.3676, GLS Beta MKTDB: 0.0364
+OLS Beta MOM: 0.3455, GLS Beta MOM: -0.4716
+Portfolio 19 Comparison (OLS vs GLS):
+OLS Alpha: 0.0004, GLS Alpha: 0.0016
+OLS Beta MKTB: 0.8895, GLS Beta MKTB: 1.4101
+OLS Beta MKTDB: -0.2185, GLS Beta MKTDB: 0.5508
+OLS Beta MOM: 0.6087, GLS Beta MOM: -1.5679
+Portfolio 20 Comparison (OLS vs GLS):
+OLS Alpha: 0.0014, GLS Alpha: 0.0001
+OLS Beta MKTB: 1.1463, GLS Beta MKTB: 1.5724
+OLS Beta MKTDB: -0.2187, GLS Beta MKTDB: -0.0562
+OLS Beta MOM: -0.0510, GLS Beta MOM: -0.4359
+Portfolio 21 Comparison (OLS vs GLS):
+OLS Alpha: 0.0005, GLS Alpha: -0.0005
+OLS Beta MKTB: 0.8805, GLS Beta MKTB: 0.8009
+OLS Beta MKTDB: -0.1332, GLS Beta MKTDB: -0.0686
+OLS Beta MOM: -0.0008, GLS Beta MOM: 0.0832
+Portfolio 22 Comparison (OLS vs GLS):
+OLS Alpha: -0.0001, GLS Alpha: 0.0016
+OLS Beta MKTB: 1.0728, GLS Beta MKTB: 0.9178
+OLS Beta MKTDB: -0.2969, GLS Beta MKTDB: 0.0941
+OLS Beta MOM: 0.2611, GLS Beta MOM: -0.7167
+Portfolio 23 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: 0.0032
+OLS Beta MKTB: 0.9743, GLS Beta MKTB: 1.1609
+OLS Beta MKTDB: -0.2281, GLS Beta MKTDB: -0.1852
+OLS Beta MOM: 1.6911, GLS Beta MOM: 1.0349
+Portfolio 24 Comparison (OLS vs GLS):
+OLS Alpha: 0.0001, GLS Alpha: -0.0010
+OLS Beta MKTB: 0.9112, GLS Beta MKTB: 0.7589
+OLS Beta MKTDB: 0.2181, GLS Beta MKTDB: -0.2035
+OLS Beta MOM: -0.3789, GLS Beta MOM: 0.4624
+Portfolio 25 Comparison (OLS vs GLS):
+OLS Alpha: 0.0006, GLS Alpha: 0.0030
+OLS Beta MKTB: 1.0289, GLS Beta MKTB: 0.9649
+OLS Beta MKTDB: 0.2762, GLS Beta MKTDB: 0.1609
+OLS Beta MOM: 0.0483, GLS Beta MOM: -0.5685
+Portfolio 26 Comparison (OLS vs GLS):
+OLS Alpha: 0.0002, GLS Alpha: -0.0001
+OLS Beta MKTB: 0.4939, GLS Beta MKTB: 0.2042
+OLS Beta MKTDB: -0.1958, GLS Beta MKTDB: -0.1988
+OLS Beta MOM: -0.0956, GLS Beta MOM: 0.1951
+Portfolio 27 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: -0.0005
+OLS Beta MKTB: 0.7530, GLS Beta MKTB: 0.5017
+OLS Beta MKTDB: -0.2793, GLS Beta MKTDB: -0.2683
+OLS Beta MOM: -0.1265, GLS Beta MOM: 0.1141
+Portfolio 28 Comparison (OLS vs GLS):
+OLS Alpha: 0.0000, GLS Alpha: -0.0011
+OLS Beta MKTB: 0.9290, GLS Beta MKTB: 0.7907
+OLS Beta MKTDB: -0.2719, GLS Beta MKTDB: -0.2292
+OLS Beta MOM: -0.2096, GLS Beta MOM: -0.0721
+Portfolio 29 Comparison (OLS vs GLS):
+OLS Alpha: -0.0004, GLS Alpha: -0.0011
+OLS Beta MKTB: 1.1118, GLS Beta MKTB: 1.1535
+OLS Beta MKTDB: -0.2971, GLS Beta MKTDB: -0.1472
+OLS Beta MOM: -0.2049, GLS Beta MOM: -0.3950
+Portfolio 30 Comparison (OLS vs GLS):
+OLS Alpha: -0.0007, GLS Alpha: -0.0001
+OLS Beta MKTB: 1.2012, GLS Beta MKTB: 1.4147
+OLS Beta MKTDB: -0.2041, GLS Beta MKTDB: 0.0201
+OLS Beta MOM: -0.2287, GLS Beta MOM: -0.8500
+Portfolio 31 Comparison (OLS vs GLS):
+OLS Alpha: -0.0010, GLS Alpha: 0.0013
+OLS Beta MKTB: 1.2895, GLS Beta MKTB: 1.5502
+OLS Beta MKTDB: -0.0370, GLS Beta MKTDB: 0.2534
+OLS Beta MOM: -0.3259, GLS Beta MOM: -1.3330
+Portfolio 32 Comparison (OLS vs GLS):
+OLS Alpha: -0.0006, GLS Alpha: 0.0012
+OLS Beta MKTB: 1.1403, GLS Beta MKTB: 1.5014
+OLS Beta MKTDB: -0.0057, GLS Beta MKTDB: 0.2610
+OLS Beta MOM: 0.0027, GLS Beta MOM: -0.9035
+Portfolio 33 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: -0.0005
+OLS Beta MKTB: 1.0072, GLS Beta MKTB: 1.0364
+OLS Beta MKTDB: 0.2891, GLS Beta MKTDB: 0.0419
+OLS Beta MOM: 0.1199, GLS Beta MOM: 0.6409
+Portfolio 34 Comparison (OLS vs GLS):
+OLS Alpha: 0.0001, GLS Alpha: -0.0060
+OLS Beta MKTB: 0.9313, GLS Beta MKTB: 0.5295
+OLS Beta MKTDB: 0.6580, GLS Beta MKTDB: -0.6060
+OLS Beta MOM: 0.5532, GLS Beta MOM: 3.8498
+Portfolio 35 Comparison (OLS vs GLS):
+OLS Alpha: 0.0043, GLS Alpha: -0.0004
+OLS Beta MKTB: 0.7066, GLS Beta MKTB: 1.0580
+OLS Beta MKTDB: 1.4776, GLS Beta MKTDB: 0.6408
+OLS Beta MOM: 1.2008, GLS Beta MOM: 2.1833
+Portfolio 36 Comparison (OLS vs GLS):
+OLS Alpha: 0.0006, GLS Alpha: 0.0006
+OLS Beta MKTB: 0.2400, GLS Beta MKTB: 0.2083
+OLS Beta MKTDB: 0.2560, GLS Beta MKTDB: 0.0913
+OLS Beta MOM: -0.0190, GLS Beta MOM: 0.0534
+Portfolio 37 Comparison (OLS vs GLS):
+OLS Alpha: 0.0008, GLS Alpha: 0.0038
+OLS Beta MKTB: 0.4038, GLS Beta MKTB: -0.2509
+OLS Beta MKTDB: 0.2275, GLS Beta MKTDB: -0.0473
+OLS Beta MOM: -0.0437, GLS Beta MOM: 0.6985
+Portfolio 38 Comparison (OLS vs GLS):
+OLS Alpha: 0.0009, GLS Alpha: 0.0013
+OLS Beta MKTB: 0.5478, GLS Beta MKTB: 0.3136
+OLS Beta MKTDB: 0.1958, GLS Beta MKTDB: -0.0280
+OLS Beta MOM: -0.0044, GLS Beta MOM: 0.4260
+Portfolio 39 Comparison (OLS vs GLS):
+OLS Alpha: 0.0005, GLS Alpha: 0.0004
+OLS Beta MKTB: 0.6358, GLS Beta MKTB: 0.4959
+OLS Beta MKTDB: 0.1878, GLS Beta MKTDB: -0.0637
+OLS Beta MOM: 0.0271, GLS Beta MOM: 0.6101
+Portfolio 40 Comparison (OLS vs GLS):
+OLS Alpha: 0.0003, GLS Alpha: 0.0003
+OLS Beta MKTB: 0.7808, GLS Beta MKTB: 0.7120
+OLS Beta MKTDB: 0.1843, GLS Beta MKTDB: 0.0405
+OLS Beta MOM: 0.3406, GLS Beta MOM: 0.5695
+Portfolio 41 Comparison (OLS vs GLS):
+OLS Alpha: 0.0000, GLS Alpha: 0.0002
+OLS Beta MKTB: 0.9901, GLS Beta MKTB: 1.1001
+OLS Beta MKTDB: 0.0471, GLS Beta MKTDB: 0.0467
+OLS Beta MOM: 0.2762, GLS Beta MOM: 0.0279
+Portfolio 42 Comparison (OLS vs GLS):
+OLS Alpha: -0.0005, GLS Alpha: -0.0012
+OLS Beta MKTB: 1.2076, GLS Beta MKTB: 1.3788
+OLS Beta MKTDB: -0.0908, GLS Beta MKTDB: -0.0497
+OLS Beta MOM: -0.0686, GLS Beta MOM: -0.1738
+Portfolio 43 Comparison (OLS vs GLS):
+OLS Alpha: 0.0001, GLS Alpha: -0.0025
+OLS Beta MKTB: 1.3874, GLS Beta MKTB: 1.7096
+OLS Beta MKTDB: -0.1514, GLS Beta MKTDB: -0.1976
+OLS Beta MOM: -0.1653, GLS Beta MOM: 0.0562
+Portfolio 44 Comparison (OLS vs GLS):
+OLS Alpha: -0.0005, GLS Alpha: -0.0014
+OLS Beta MKTB: 1.6747, GLS Beta MKTB: 1.7851
+OLS Beta MKTDB: -0.2204, GLS Beta MKTDB: -0.1867
+OLS Beta MOM: 0.0326, GLS Beta MOM: 0.0409
+Portfolio 45 Comparison (OLS vs GLS):
+OLS Alpha: -0.0012, GLS Alpha: -0.0023
+OLS Beta MKTB: 2.0455, GLS Beta MKTB: 2.5873
+OLS Beta MKTDB: -0.5462, GLS Beta MKTDB: 0.2458
+OLS Beta MOM: -0.2805, GLS Beta MOM: -1.8487
+Portfolio 46 Comparison (OLS vs GLS):
+OLS Alpha: -0.0005, GLS Alpha: -0.0009
+OLS Beta MKTB: 1.0727, GLS Beta MKTB: 1.0154
+OLS Beta MKTDB: -0.3271, GLS Beta MKTDB: -0.2588
+OLS Beta MOM: -0.2918, GLS Beta MOM: -0.2275
+Portfolio 47 Comparison (OLS vs GLS):
+OLS Alpha: -0.0001, GLS Alpha: -0.0001
+OLS Beta MKTB: 1.1522, GLS Beta MKTB: 1.1063
+OLS Beta MKTDB: -0.1225, GLS Beta MKTDB: -0.0842
+OLS Beta MOM: -0.2561, GLS Beta MOM: -0.3985
+Portfolio 48 Comparison (OLS vs GLS):
+OLS Alpha: -0.0003, GLS Alpha: -0.0004
+OLS Beta MKTB: 1.0792, GLS Beta MKTB: 1.2120
+OLS Beta MKTDB: -0.0932, GLS Beta MKTDB: 0.0160
+OLS Beta MOM: -0.1304, GLS Beta MOM: -0.4792
+Portfolio 49 Comparison (OLS vs GLS):
+OLS Alpha: 0.0000, GLS Alpha: -0.0034
+OLS Beta MKTB: 0.8513, GLS Beta MKTB: 0.8801
+OLS Beta MKTDB: 0.1767, GLS Beta MKTDB: -0.2757
+OLS Beta MOM: 0.3786, GLS Beta MOM: 1.3930
+Portfolio 50 Comparison (OLS vs GLS):
+OLS Alpha: 0.0026, GLS Alpha: 0.0044
+OLS Beta MKTB: 0.6465, GLS Beta MKTB: 0.8370
+OLS Beta MKTDB: 0.9655, GLS Beta MKTDB: 0.8945
+OLS Beta MOM: 0.8191, GLS Beta MOM: 0.2442
+Number of portfolios with significant alphas (OLS): 6
+Number of portfolios with significant alphas (GLS): 38
+[Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating variable names for the table. The original
+column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names.] 
+Starting Expanded Analysis focusing on GLS integration into Fama-MacBeth and time-series analysis of GLS-based alphas...
+Performing Fama-MacBeth Regression using GLS results for Multi-Factor Model...
+Fama-MacBeth Regression Summary for GLS-based Model:
+Coefficient 1 Estimate: 0.0008, SE: 0.0001
+Coefficient 2 Estimate: 0.0030, SE: 0.0005
+Coefficient 3 Estimate: 0.0033, SE: 0.0006
+Coefficient 4 Estimate: 0.0017, SE: 0.0003
+Performing time-series analysis of GLS-based alphas...
+Time-Series Analysis of GLS-based Alphas:
+Mean of GLS-based Alphas: 0.0002
+Standard Deviation of GLS-based Alphas: 0.0009
+Section 9: Expanded Analysis completed successfully.
